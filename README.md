@@ -126,4 +126,10 @@ Ogg Vorbis file, confirming the complete drive-to-encoder path. GNUDB HTTPS
 connectivity and the disc query were also validated; the disc returned two
 matches for The Killers / Hot Fuss. Every bundled encoder has also completed a
 clean-environment synthetic WAV conversion test, and every Mach-O dependency
-is checked to ensure that no `/opt/homebrew` load path remains.
+is checked to ensure that no `/opt/homebrew` load path remains. I have also 
+tested other CDs and they work. There is also the option of a light and dark 
+theme, because not everyone loves the light theme.  
+
+The plan with this software is to be able to use an optical drive attached to 
+Apple silicon devices and preserve old media that you have like an old CD 
+collection and do not want to pay for a subscription.  
