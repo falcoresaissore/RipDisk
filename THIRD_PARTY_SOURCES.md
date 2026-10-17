@@ -1,9 +1,9 @@
 # Third-party source and build provenance
 
-DiskBurn's DMG aggregates unmodified command-line programs and libraries built
-from Homebrew bottles. They are separate programs from DiskBurn and keep their
+RipDisk's DMG aggregates unmodified command-line programs and libraries built
+from Homebrew bottles. They are separate programs from RipDisk and keep their
 upstream licences. The exact corresponding source archives are shipped in the
-matching `DiskBurn-1.0.1-corresponding-source.tar.gz` GitHub release asset.
+matching `RipDisk-1.0.1-corresponding-source.tar.gz` GitHub release asset.
 `third_party/SHA256SUMS` verifies every archive. The exact Homebrew formula
 recipes used for provenance are stored in `third_party/homebrew-formulae/`.
 

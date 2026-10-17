@@ -1,6 +1,6 @@
-# DiskBurn 1.0.1 for macOS ARM64
+# RipDisk 1.0.1 for macOS ARM64
 
-DiskBurn is a native SwiftUI audio CD ripper derived from Asunder 3.0.1. This
+RipDisk is a native SwiftUI audio CD ripper derived from Asunder 3.0.1. This
 clean project contains the macOS port source rather than the unused legacy
 C/GTK build tree. The GPL licence and original contributor credits are retained
 in `COPYING`, `NOTICE`, and `AUTHORS`.
@@ -8,11 +8,11 @@ in `COPYING`, `NOTICE`, and `AUTHORS`.
 ## Build
 
 ```sh
-cd ~/Downloads/DiskBurn
+cd ~/Downloads/RipDisk
 ./scripts/build-app.sh
 ```
 
-The application is produced at `dist/DiskBurn.app`. The script compiles an
+The application is produced at `dist/RipDisk.app`. The script compiles an
 optimized, arm64-only executable, packages the inherited Asunder artwork as its
 macOS application icon, embeds the complete backend and its notices, and
 applies an ad-hoc code signature.
@@ -28,8 +28,8 @@ included in the corresponding-source release archive instead.
 ./scripts/build-dmg.sh
 ```
 
-The distributable image is produced at `dist/DiskBurn-1.0.1-arm64.dmg`. It
-contains `DiskBurn.app`, an Applications shortcut, and a complete ARM64 ripping
+The distributable image is produced at `dist/RipDisk-1.0.1-arm64.dmg`. It
+contains `RipDisk.app`, an Applications shortcut, and a complete ARM64 ripping
 and encoding backend. No Homebrew installation or backend download is required
 on the destination Mac.
 
@@ -66,7 +66,7 @@ Asunder. The DMG embeds these commands and their non-system dynamic libraries:
 | Monkey's Audio | `mac` |
 
 WAV output needs no encoder. The Encode preference panel verifies the embedded
-commands. Homebrew is required only on a machine rebuilding DiskBurn from
+commands. Homebrew is required only on a machine rebuilding RipDisk from
 source; it is not required to run the distributed application. Build-machine
 packages are:
 
@@ -81,9 +81,9 @@ without dropping AAC support.
 
 ## Licence and GitHub release
 
-DiskBurn application source is GPL-2.0-only, matching Asunder 3.0.1. Bundled
+RipDisk application source is GPL-2.0-only, matching Asunder 3.0.1. Bundled
 backend programs keep their own licences; this does not relicense them as
-DiskBurn. Complete notices are embedded in the application and exact upstream
+RipDisk. Complete notices are embedded in the application and exact upstream
 sources/checksums are documented in `THIRD_PARTY_SOURCES.md`.
 
 Prepare the three GitHub release assets with:
