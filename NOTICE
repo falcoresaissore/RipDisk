@@ -1,0 +1,19 @@
+DiskBurn 1.0.1
+================
+
+Copyright (C) 2026 DiskBurn contributors
+
+DiskBurn is a macOS ARM64 port derived from Asunder 3.0.1. The application
+source is distributed under GNU GPL version 2 only. See COPYING for the full
+licence and warranty disclaimer, and AUTHORS for the original Asunder credits.
+
+The SwiftUI port and macOS integration were created in 2026. Files carrying an
+SPDX-License-Identifier identify their applicable licence. The original Asunder
+icon by Radu Potop is retained and credited in AUTHORS.
+
+DiskBurn invokes separately distributed command-line programs for CD audio
+extraction and encoding. Those programs are aggregated in the application
+bundle for portability and retain their own copyrights and licences. See
+Resources/ThirdPartyTools.txt, THIRD_PARTY_SOURCES.md, and
+Resources/ThirdPartyLicenses/.
+
